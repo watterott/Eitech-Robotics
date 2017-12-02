@@ -60,11 +60,6 @@
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="Board" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
@@ -75,24 +70,6 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="105" name="Beschreib" color="9" fill="1" visible="no" active="no"/>
-<layer number="106" name="BGA-Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="107" name="BD-Top" color="5" fill="1" visible="no" active="no"/>
-<layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
-<layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
-<layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
-<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
-<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
-<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
-<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
-<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
-<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
-<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
-<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
-<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 </layers>
 <board>
 <plain>
@@ -134,12 +111,12 @@
 <circle x="65" y="5" radius="3.5" width="0.2" layer="21"/>
 <text x="66.421" y="38.735" size="0.8128" layer="16" font="vector" ratio="20" rot="MR0" align="center">BOT</text>
 <text x="66.548" y="38.735" size="0.8128" layer="1" font="vector" ratio="20" align="center">TOP</text>
-<wire x1="64.262" y1="12.192" x2="64.262" y2="11.557" width="0.13" layer="22"/>
-<wire x1="64.262" y1="11.557" x2="64.516" y2="11.938" width="0.13" layer="22"/>
-<wire x1="64.262" y1="11.557" x2="64.008" y2="11.938" width="0.13" layer="22"/>
-<wire x1="66.04" y1="12.192" x2="66.04" y2="11.557" width="0.13" layer="22"/>
-<wire x1="66.04" y1="12.192" x2="66.294" y2="11.811" width="0.13" layer="22"/>
-<wire x1="66.04" y1="12.192" x2="65.786" y2="11.811" width="0.13" layer="22"/>
+<wire x1="65.913" y1="12.192" x2="65.913" y2="11.557" width="0.13" layer="22"/>
+<wire x1="65.913" y1="11.557" x2="66.167" y2="11.938" width="0.13" layer="22"/>
+<wire x1="65.913" y1="11.557" x2="65.659" y2="11.938" width="0.13" layer="22"/>
+<wire x1="64.008" y1="12.192" x2="64.008" y2="11.557" width="0.13" layer="22"/>
+<wire x1="64.008" y1="12.192" x2="64.262" y2="11.811" width="0.13" layer="22"/>
+<wire x1="64.008" y1="12.192" x2="63.754" y2="11.811" width="0.13" layer="22"/>
 <text x="5.715" y="37.973" size="0.8128" layer="21" font="vector" ratio="15" rot="SR270" align="center">Status</text>
 <text x="5.461" y="12.954" size="1.2" layer="21" font="vector" ratio="15" rot="SR270" align="center">Eitech
 Robotics</text>
@@ -161,7 +138,7 @@ Robotics</text>
 <wire x1="11.303" y1="43.053" x2="59.69" y2="43.053" width="0.09" layer="22"/>
 <text x="60.96" y="34.417" size="0.61" layer="22" font="vector" ratio="15" rot="MR0" align="center">CS SCK MOSI MISO 5V GND</text>
 <text x="62.992" y="26.797" size="0.65" layer="22" font="vector" ratio="15" rot="MR0" align="center">SCL SDA 5V GND</text>
-<text x="62.738" y="12.827" size="0.65" layer="22" font="vector" ratio="15" rot="MR0" align="center">RX TX  5V GND</text>
+<text x="62.738" y="12.827" size="0.65" layer="22" font="vector" ratio="15" rot="MR0" align="center">TX RX 5V GND</text>
 <text x="62.992" y="19.812" size="0.65" layer="22" font="vector" ratio="15" rot="MR0" align="center">SCL SDA 5V GND</text>
 <text x="12.7" y="3.302" size="1.6764" layer="22" font="vector" ratio="15" rot="MR0" align="center">-</text>
 <text x="14.986" y="3.302" size="1.6764" layer="22" font="vector" ratio="15" rot="MR0" align="center">+</text>
@@ -4245,7 +4222,7 @@ TL3305C - 7.0mm height&lt;br&gt;</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="we-dru-2-layer *">
+<designrules name="we-dru-2-layer">
 <description language="de">&lt;b&gt;2 Layer PCB Design Rules&lt;/b&gt;</description>
 <description language="en">&lt;b&gt;2 Layer PCB Design Rules&lt;/b&gt;</description>
 <param name="layerSetup" value="(1*16)"/>
@@ -4262,7 +4239,7 @@ TL3305C - 7.0mm height&lt;br&gt;</description>
 <param name="mdSmdSmd" value="0.1mm"/>
 <param name="mdViaViaSameLayer" value="0.2mm"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="0.5mm"/>
+<param name="mdCopperDimension" value="0.4mm"/>
 <param name="mdDrill" value="0.2mm"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="0.15mm"/>
@@ -4277,15 +4254,15 @@ TL3305C - 7.0mm height&lt;br&gt;</description>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
 <param name="rlMinPadTop" value="0.18mm"/>
-<param name="rlMaxPadTop" value="0.5mm"/>
+<param name="rlMaxPadTop" value="1mm"/>
 <param name="rlMinPadInner" value="0.18mm"/>
-<param name="rlMaxPadInner" value="0.5mm"/>
+<param name="rlMaxPadInner" value="1mm"/>
 <param name="rlMinPadBottom" value="0.18mm"/>
-<param name="rlMaxPadBottom" value="0.5mm"/>
-<param name="rlMinViaOuter" value="0.2mm"/>
-<param name="rlMaxViaOuter" value="0.5mm"/>
-<param name="rlMinViaInner" value="0.2mm"/>
-<param name="rlMaxViaInner" value="0.5mm"/>
+<param name="rlMaxPadBottom" value="1mm"/>
+<param name="rlMinViaOuter" value="0.16mm"/>
+<param name="rlMaxViaOuter" value="1mm"/>
+<param name="rlMinViaInner" value="0.16mm"/>
+<param name="rlMaxViaInner" value="1mm"/>
 <param name="rlMinMicroViaOuter" value="0.1mm"/>
 <param name="rlMaxMicroViaOuter" value="0.5mm"/>
 <param name="rlMinMicroViaInner" value="0.1mm"/>
@@ -4305,9 +4282,9 @@ TL3305C - 7.0mm height&lt;br&gt;</description>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
-<param name="slThermalIsolate" value="0.2mm"/>
+<param name="slThermalIsolate" value="0.25mm"/>
 <param name="slThermalsForVias" value="0"/>
-<param name="dpMaxLengthDifference" value="2mm"/>
+<param name="dpMaxLengthDifference" value="5mm"/>
 <param name="dpGapFactor" value="2.5"/>
 <param name="checkGrid" value="0"/>
 <param name="checkAngle" value="1"/>
@@ -5137,6 +5114,8 @@ TL3305C - 7.0mm height&lt;br&gt;</description>
 <via x="12.446" y="18.161" extent="1-16" drill="0.3"/>
 <via x="23.114" y="21.463" extent="1-16" drill="0.3"/>
 <via x="23.114" y="23.876" extent="1-16" drill="0.3"/>
+<wire x1="40.894" y1="13.716" x2="40.894" y2="14.097" width="0" layer="19" extent="1-1"/>
+<wire x1="39.116" y1="13.716" x2="39.116" y2="14.097" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="R21" pad="2"/>
@@ -5421,8 +5400,7 @@ TL3305C - 7.0mm height&lt;br&gt;</description>
 </signal>
 <signal name="RX_HV">
 <contactref element="IC2" pad="15"/>
-<wire x1="66.802" y1="15.367" x2="67.945" y2="16.51" width="0.2032" layer="1"/>
-<wire x1="67.945" y1="16.51" x2="67.945" y2="25.4" width="0.2032" layer="1"/>
+<wire x1="67.945" y1="14.605" x2="67.945" y2="25.4" width="0.2032" layer="1"/>
 <wire x1="67.945" y1="25.4" x2="66.802" y2="26.543" width="0.2032" layer="1"/>
 <wire x1="66.802" y1="26.543" x2="66.675" y2="26.543" width="0.2032" layer="1"/>
 <via x="66.675" y="26.543" extent="1-16" drill="0.3"/>
@@ -5433,14 +5411,15 @@ TL3305C - 7.0mm height&lt;br&gt;</description>
 <wire x1="48.768" y1="30.48" x2="48.697" y2="30.409" width="0.2032" layer="1"/>
 <wire x1="48.697" y1="30.409" x2="46.942" y2="30.409" width="0.2032" layer="1"/>
 <wire x1="51.054" y1="28.194" x2="48.768" y2="30.48" width="0.2032" layer="16"/>
-<contactref element="UART" pad="4"/>
-<wire x1="65.96" y1="14.5" x2="65.96" y2="14.525" width="0.4064" layer="1"/>
-<wire x1="65.96" y1="14.525" x2="66.675" y2="15.24" width="0.4064" layer="1"/>
-<wire x1="66.675" y1="15.24" x2="66.802" y2="15.367" width="0.4064" layer="1"/>
+<contactref element="UART" pad="3"/>
+<wire x1="67.945" y1="14.605" x2="66.3575" y2="13.0175" width="0.2032" layer="1"/>
+<wire x1="66.3575" y1="13.0175" x2="64.4525" y2="13.0175" width="0.2032" layer="1"/>
+<wire x1="64" y1="14.5" x2="64" y2="13.47" width="0.4064" layer="1"/>
+<wire x1="64.4525" y1="13.0175" x2="64" y2="13.47" width="0.2032" layer="1"/>
 </signal>
 <signal name="TX_HV">
 <contactref element="IC2" pad="7"/>
-<wire x1="67.183" y1="17.78" x2="67.183" y2="24.765" width="0.2032" layer="1"/>
+<wire x1="67.183" y1="16.7005" x2="67.183" y2="24.765" width="0.2032" layer="1"/>
 <wire x1="67.183" y1="24.765" x2="66.802" y2="25.146" width="0.2032" layer="1"/>
 <via x="66.802" y="25.146" extent="1-16" drill="0.3"/>
 <wire x1="66.802" y1="25.146" x2="66.548" y2="25.4" width="0.2032" layer="16"/>
@@ -5451,10 +5430,9 @@ TL3305C - 7.0mm height&lt;br&gt;</description>
 <via x="42.418" y="29.718" extent="1-16" drill="0.3"/>
 <wire x1="42.418" y1="29.718" x2="42.377" y2="29.759" width="0.2032" layer="1"/>
 <wire x1="42.377" y1="29.759" x2="40.942" y2="29.759" width="0.2032" layer="1"/>
-<contactref element="UART" pad="3"/>
-<wire x1="64" y1="14.5" x2="64" y2="14.597" width="0.4064" layer="1"/>
-<wire x1="64" y1="14.597" x2="64.77" y2="15.367" width="0.4064" layer="1"/>
-<wire x1="64.77" y1="15.367" x2="67.183" y2="17.78" width="0.2032" layer="1"/>
+<contactref element="UART" pad="4"/>
+<wire x1="65.96" y1="14.5" x2="65.96" y2="15.4775" width="0.4064" layer="1"/>
+<wire x1="67.183" y1="16.7005" x2="65.96" y2="15.4775" width="0.2032" layer="1"/>
 </signal>
 <signal name="MISO_HV">
 <contactref element="SPI" pad="3"/>
@@ -5621,7 +5599,8 @@ TL3305C - 7.0mm height&lt;br&gt;</description>
 <wire x1="21.5" y1="44" x2="14.5" y2="44" width="1.27" layer="16"/>
 <contactref element="D5" pad="C"/>
 <wire x1="55.8825" y1="31.8135" x2="55.8825" y2="29.955" width="0.8128" layer="1"/>
-<wire x1="55.8825" y1="29.955" x2="55.753" y2="29.767" width="0.8128" layer="1"/>
+<wire x1="55.8825" y1="29.955" x2="55.8825" y2="29.8965" width="0.2032" layer="1"/>
+<wire x1="55.8825" y1="29.8965" x2="55.753" y2="29.767" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="J1" pad="3"/>
@@ -6757,22 +6736,6 @@ TL3305C - 7.0mm height&lt;br&gt;</description>
 <approved hash="3,16,13ff45bd09ab5fe9"/>
 <approved hash="3,16,64f419aad5b1a8ef"/>
 <approved hash="3,16,670390115c0fab1d"/>
-<approved hash="4,1,217d132b8f13d0dd"/>
-<approved hash="4,1,5a36f71e99c05970"/>
-<approved hash="4,1,a9b24e424fc0a830"/>
-<approved hash="4,1,6fb1ce41cfc36e33"/>
-<approved hash="4,1,526d4751e2985122"/>
-<approved hash="4,1,52de0b6c44adbb99"/>
-<approved hash="4,1,d1de2d2e2bc2d732"/>
-<approved hash="4,1,0fdebf2eb9c60936"/>
-<approved hash="4,1,2b8671443df5c1b1"/>
-<approved hash="4,1,36853b5986702d2a"/>
-<approved hash="4,1,d04e2cbe2d62d192"/>
-<approved hash="4,1,0e4ebebebf660f96"/>
-<approved hash="4,1,507871b305dd9d6f"/>
-<approved hash="4,1,fa0642e8a64981e6"/>
-<approved hash="4,1,a2a5df0ec348a9fb"/>
-<approved hash="4,1,a0a6205a27f2a70e"/>
 <approved hash="19,1,711a39e2390271fa"/>
 <approved hash="19,1,f1ff39073906f1fe"/>
 <approved hash="19,1,7e9ae6e2e6027e7a"/>
@@ -6789,101 +6752,52 @@ TL3305C - 7.0mm height&lt;br&gt;</description>
 <approved hash="19,1,9e59282128019e79"/>
 <approved hash="19,1,7fde672666e67e1e"/>
 <approved hash="19,1,ffd967216701fff9"/>
+<approved hash="19,1,01d1292929f90101"/>
+<approved hash="19,1,011d29e5290d01f5"/>
+<approved hash="19,1,f5d1252925f9f501"/>
+<approved hash="19,1,f51d25e5250df5f5"/>
 <approved hash="19,1,81982960290681fe"/>
 <approved hash="19,1,81dc2924291e81e6"/>
 <approved hash="19,1,75dc2524251e75e6"/>
 <approved hash="19,1,75982560250675fe"/>
-<approved hash="19,1,011d29e5290d01f5"/>
-<approved hash="19,1,01d1292929f90101"/>
-<approved hash="19,1,f5d1252925f9f501"/>
-<approved hash="19,1,f51d25e5250df5f5"/>
 <approved hash="19,1,e69d24e5240de675"/>
 <approved hash="19,1,e651242924f9e681"/>
 <approved hash="19,1,fe51382938f9fe81"/>
 <approved hash="19,1,fe9d38e5380dfe75"/>
-<approved hash="19,1,661824602406667e"/>
 <approved hash="19,1,665c2424241e6666"/>
+<approved hash="19,1,661824602406667e"/>
 <approved hash="19,1,7e18386038067e7e"/>
 <approved hash="19,1,7e5c3824381e7e66"/>
-<approved hash="19,1,45ecdc969e0dfab3"/>
 <approved hash="19,1,f29efae6fa06f27e"/>
+<approved hash="19,1,45ecdc969e0dfab3"/>
 <approved hash="19,1,c3e342cc663acfe1"/>
 <approved hash="19,1,7259fa21fa06727e"/>
 <approved hash="19,1,f25cfa24fa1df265"/>
-<approved hash="19,1,8b192a3688405b13"/>
 <approved hash="19,1,e7dd2725271de7e5"/>
-<approved hash="19,1,1479dcc60ce4b627"/>
+<approved hash="19,1,8b192a3688405b13"/>
 <approved hash="19,1,e71f27e72706e7fe"/>
+<approved hash="19,1,1479dcc60ce4b627"/>
 <approved hash="19,1,765824202406767e"/>
 <approved hash="19,1,f65d2425241df665"/>
 <approved hash="19,1,f69f24e72406f67e"/>
 <approved hash="19,1,00b35654825b6a05"/>
 <approved hash="19,1,86d9100e7a098757"/>
-<approved hash="19,1,05e01a5a0859a940"/>
 <approved hash="19,1,26f5c03194a1f3b8"/>
+<approved hash="19,1,05e01a5a0859a940"/>
 <approved hash="19,1,1f5c5e676e13db28"/>
 <approved hash="19,1,141e502cd6e9a52f"/>
 <approved hash="19,1,69a15a8f684e6c94"/>
 <approved hash="19,1,8d68babd2057691c"/>
 <approved hash="19,1,1eec2186c8d403be"/>
 <approved hash="19,1,e1e6d23f33094130"/>
-<approved hash="19,1,f10ab3cee7594040"/>
-<approved hash="19,1,5b5c1b9e39ea8d28"/>
 <approved hash="19,1,b61f69a57ba17eb8"/>
+<approved hash="19,1,5b5c1b9e39ea8d28"/>
+<approved hash="19,1,f10ab3cee7594040"/>
 <approved hash="19,1,89b1236427b69e87"/>
 <approved hash="19,1,6c0db1d42502eb3f"/>
-<approved hash="19,1,3a82dd555fbd32f6"/>
-<approved hash="19,1,7aec446eb33c79be"/>
 <approved hash="19,1,ba0eadd554e3f6da"/>
-<approved hash="19,16,dac01e801e18da58"/>
-<approved hash="19,16,464202021d195959"/>
-<approved hash="4,16,217d132b8f13d0dd"/>
-<approved hash="4,16,5a36f71e99c05970"/>
-<approved hash="4,16,a9b24e424fc0a830"/>
-<approved hash="4,16,6fb1ce41cfc36e33"/>
-<approved hash="4,16,6cd1b7fb9a9e2958"/>
-<approved hash="4,16,beaec4b52ef52c05"/>
-<approved hash="4,16,96d04100be3f66b7"/>
-<approved hash="4,16,628dad5d533893b0"/>
-<approved hash="4,16,1dd6c83fad652068"/>
-<approved hash="4,16,b3bc0a75800dd210"/>
-<approved hash="4,16,d3167e8647eef795"/>
-<approved hash="4,16,0745e46648aa5738"/>
-<approved hash="4,16,77bca0e7014fc576"/>
-<approved hash="4,16,c48218cbfd364cbb"/>
-<approved hash="4,16,8d052e61794dcf79"/>
-<approved hash="4,16,28a63c81cf875d38"/>
-<approved hash="4,16,3fa4231840fb6c80"/>
-<approved hash="4,16,2e753bb95d39e217"/>
-<approved hash="4,16,8ce2aba5fcb879cc"/>
-<approved hash="4,16,500f2c2b6e26e76e"/>
-<approved hash="4,16,217d132b8f13d0dd"/>
-<approved hash="4,16,a376c264e9be6d9e"/>
-<approved hash="4,16,6ee359af34e091c0"/>
-<approved hash="4,16,c68940490a69f82e"/>
-<approved hash="4,16,9403f8ec305fbb26"/>
-<approved hash="4,16,5a36f71e99c05970"/>
-<approved hash="4,16,ad73a7f49496ae24"/>
-<approved hash="4,16,f4cc0a4a444b6528"/>
-<approved hash="4,16,24f72bce78839e8d"/>
-<approved hash="4,16,c5381ed43cfde82d"/>
-<approved hash="4,16,cdd7108e1e8dc3d4"/>
-<approved hash="4,16,8afc294c37b18a61"/>
-<approved hash="4,16,b850647c4075ef3d"/>
-<approved hash="4,16,5f0f570604fb9ead"/>
-<approved hash="4,16,a98f6c266225a78c"/>
-<approved hash="4,16,948c368c28018ac1"/>
-<approved hash="4,16,36853b5986702d2a"/>
-<approved hash="4,16,2b8671443df5c1b1"/>
-<approved hash="4,16,d04e2cbe2d62d192"/>
-<approved hash="4,16,0e4ebebebf660f96"/>
-<approved hash="4,16,52de0b6c44adbb99"/>
-<approved hash="4,16,526d4751e2985122"/>
-<approved hash="4,16,d1de2d2e2bc2d732"/>
-<approved hash="4,16,0fdebf2eb9c60936"/>
-<approved hash="19,16,8a4e568e598a854a"/>
-<approved hash="19,16,7e5efe1efade7a9e"/>
-<approved hash="5,16,bd6087d48727f36a"/>
+<approved hash="19,1,7aec446eb33c79be"/>
+<approved hash="19,1,3a82dd555fbd32f6"/>
 </errors>
 </board>
 </drawing>

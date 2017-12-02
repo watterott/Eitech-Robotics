@@ -60,11 +60,6 @@
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="Board" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -75,24 +70,6 @@
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="105" name="Beschreib" color="9" fill="1" visible="no" active="no"/>
-<layer number="106" name="BGA-Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="107" name="BD-Top" color="5" fill="1" visible="no" active="no"/>
-<layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
-<layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
-<layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
-<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
-<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
-<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
-<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
-<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
-<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
-<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
-<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
-<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -14270,9 +14247,9 @@ Output Voltage: 0-3.3V</text>
 </net>
 <net name="RX_HV" class="0">
 <segment>
-<label x="299.72" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="307.34" y1="40.64" x2="299.72" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="UART" gate="J" pin="4"/>
+<label x="299.72" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="307.34" y1="43.18" x2="299.72" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="UART" gate="J" pin="3"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="B" pin="A3"/>
@@ -14282,9 +14259,9 @@ Output Voltage: 0-3.3V</text>
 </net>
 <net name="TX_HV" class="0">
 <segment>
-<wire x1="299.72" y1="43.18" x2="307.34" y2="43.18" width="0.1524" layer="91"/>
-<label x="299.72" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="UART" gate="J" pin="3"/>
+<wire x1="299.72" y1="40.64" x2="307.34" y2="40.64" width="0.1524" layer="91"/>
+<label x="299.72" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="UART" gate="J" pin="4"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="B" pin="Y2"/>
