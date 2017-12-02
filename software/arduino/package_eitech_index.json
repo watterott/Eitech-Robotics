@@ -9,14 +9,14 @@
 
       "platforms": [
         {
-          "name": "Eitech SAMD Boards (ARM Cortex-M0+)",
+          "name": "Eitech SAMD Boards (dependency: Arduino SAMD Boards)",
           "architecture": "samd",
           "version": "1.0.0",
           "category": "contributed",
           "help": {"online": "https://github.com/watterott/Eitech-Robotics"},
           "url": "https://github.com/watterott/Eitech-Robotics/raw/master/software/arduino/eitech.zip",
           "archiveFileName": "eitech-1.0.0.zip",
-          "size": "543690",
+          "size": "548317",
           "boards": [
             {"name": "Eitech Robotics"}
           ]
