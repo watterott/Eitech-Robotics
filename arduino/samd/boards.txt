@@ -1,0 +1,55 @@
+
+# Eitech Robotics
+robotics.name=Eitech Robotics
+robotics.vid.0=0x1D50
+robotics.pid.0=0x6110
+robotics.vid.1=0x1D50
+robotics.pid.1=0x6111
+robotics.bootloader.tool=openocd
+robotics.bootloader.file=robotics.bin
+robotics.upload.tool=bossac
+robotics.upload.protocol=sam-ba
+robotics.upload.maximum_size=262144
+robotics.upload.use_1200bps_touch=true
+robotics.upload.wait_for_upload_port=true
+robotics.upload.native_usb=true
+robotics.build.mcu=cortex-m0plus
+robotics.build.f_cpu=48000000L
+robotics.build.board=SAMD_MKR1000
+robotics.build.variant=robotics
+robotics.build.core=arduino:arduino
+robotics.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+robotics.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+robotics.build.openocdscript=openocd_scripts/robotics.cfg
+robotics.build.vid=0x1D50
+robotics.build.pid=0x6111
+robotics.build.usb_product="Eitech Robotics"
+robotics.build.usb_manufacturer="Eitech"
+
+
+# Eitech Robotics (Developer Edition)
+robotics_dev.name=Eitech Robotics (Developer Edition)
+robotics_dev.vid.0=0x1D50
+robotics_dev.pid.0=0x6110
+robotics_dev.vid.1=0x1D50
+robotics_dev.pid.1=0x6111
+robotics_dev.bootloader.tool=openocd
+robotics_dev.bootloader.file=robotics.bin
+robotics_dev.upload.tool=bossac
+robotics_dev.upload.protocol=sam-ba
+robotics_dev.upload.maximum_size=262144
+robotics_dev.upload.use_1200bps_touch=true
+robotics_dev.upload.wait_for_upload_port=true
+robotics_dev.upload.native_usb=true
+robotics_dev.build.mcu=cortex-m0plus
+robotics_dev.build.f_cpu=48000000L
+robotics_dev.build.board=SAMD_MKR1000
+robotics_dev.build.variant=robotics_dev
+robotics_dev.build.core=arduino:arduino
+robotics_dev.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+robotics_dev.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+robotics_dev.build.openocdscript=openocd_scripts/robotics.cfg
+robotics_dev.build.vid=0x1D50
+robotics_dev.build.pid=0x6111
+robotics_dev.build.usb_product="Eitech Robotics"
+robotics_dev.build.usb_manufacturer="Eitech"
