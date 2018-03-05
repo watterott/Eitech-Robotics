@@ -30,7 +30,7 @@ A binary file can be generated and exported in the Arduino IDE with *Sketch->Exp
 Sometimes the driver for the USB Bootloader is not loaded correctly.
 Check the driver state in the Device Manager, when the Bootloader is active (double press reset).
 If you cannot install the driver on Windows 8 or higher then deactivate the [driver signature enforcement](https://learn.sparkfun.com/tutorials/disabling-driver-signature-on-windows-8/disabling-signed-driver-enforcement-on-windows-8).
-* [Eitech Robotics Driver](https://github.com/watterott/Eitech-Robotics/raw/master/software/arduino/driver.zip)
+* [Eitech Robotics Driver](https://github.com/watterott/Eitech-Robotics/raw/master/arduino/driver.zip)
 
 ### Linux
 The Modem Manager detects the Serial Ports (e.g. the USB Bootloader) as a modem and therefore a blacklist rule is needed.
