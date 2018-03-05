@@ -19,7 +19,7 @@ The bootloader can be activated via the Arduino IDE or by doing two reset in 0.5
 When the bootloader is active then a new program can be loaded via the Arduino IDE and the serial port or via the mass storage device.
 For the mass storage device just copy a new binary file (.bin) to the drive.
 
-On Linux/Mac the dd command can be used to write the firmware: ```dd if=APP.BIN of=/media/SENSEBOX/APP.BIN conv=notrunc```
+On Linux/Mac the dd command can be used to write the firmware: ```dd if=APP.BIN of=/media/ROBOTICS/APP.BIN conv=notrunc```
 
 A binary file can be generated and exported in the Arduino IDE with *Sketch->Export compiled Binary* command.
 
