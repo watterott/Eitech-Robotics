@@ -2,7 +2,7 @@
   "packages": [
     {
       "name": "eitech",
-      "maintainer": "Eitech",
+      "maintainer": "Watterott electronic",
       "websiteURL": "http://www.eitech.de",
       "email": "",
       "help": {"online": "https://github.com/watterott/Eitech-Robotics"},
@@ -18,7 +18,7 @@
           "archiveFileName": "eitech-1.0.0.zip",
           "size": "400569",
           "boards": [
-            {"name": "Eitech Robotics"}
+            {"name": "Eitech Robotics (SAMW25)"}
           ]
         }
       ],
