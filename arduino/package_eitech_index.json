@@ -16,7 +16,7 @@
           "help": {"online": "https://github.com/watterott/Eitech-Robotics"},
           "url": "https://github.com/watterott/Eitech-Robotics/raw/master/arduino/eitech.zip",
           "archiveFileName": "eitech-1.0.0.zip",
-          "size": "441756",
+          "size": "400569",
           "boards": [
             {"name": "Eitech Robotics"}
           ]
